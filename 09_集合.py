@@ -39,10 +39,10 @@ print(data, type(data))
 data.clear()
 # 3.7、其他方法
 data = {1, 2, 3, 4, 5}
-print(len(data))  # 集合元素个数
-print(max(data))  # 集合元素最大值
-print(min(data))  # 集合元素最小值
-print(sum(data))  # 集合元素求和
+print(len(data))     # 集合元素个数
+print(max(data))     # 集合元素最大值
+print(min(data))     # 集合元素最小值
+print(sum(data))     # 集合元素求和
 print(sorted(data))  # 集合元素排序，返回列表
 print(sorted(data, reverse=True))  # 集合元素逆序排序，返回列表
 

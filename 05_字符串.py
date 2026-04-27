@@ -41,7 +41,7 @@ print(a[::-1])  # 从头到尾，步长为 -1，即反转字符串
 
 # 6、原始字符串（r）
 print("C:\\new\\test\\text.txt")  # 输出：C:\new\test\text.txt
-print(r"C:\new\test\text.txt")    # 输出：C:\new\test\text.txt
+print(r"C:\\new\\test\\text.txt")    # 输出：C:\new\test\text.txt
 
 # 7、格式化字符串（f）
 print("我叫%s，今年%d岁了！" % ("小明", 18))  # 使用 %s 和 %d 占位符
