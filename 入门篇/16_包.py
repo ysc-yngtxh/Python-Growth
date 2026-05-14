@@ -9,9 +9,8 @@
 
 
 # 方式一：import 包名.模块名 -- 精准导入指定模块
-import my_package.calc
 # 使用功能：包名.模块名.功能
-print(my_package.calc.add(8, 3))
+print(入门篇.my_package.calc.add(8, 3))
 
 # 方式二：from 包名.模块名 import 功能 -- 直接导入模块中的功能
 from my_package.calc import add
